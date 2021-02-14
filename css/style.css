@@ -1,0 +1,164 @@
+*{
+	margin: auto;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: black;
+	font-family: all;
+	margin-top: auto;
+	padding: 15px;
+}
+.col-md-12{
+	flex-basis: 90%;
+}
+.pestañas{
+	height: 25px;
+	float: left;
+	width: 20%;
+	border-radius: 5px 5px 0 0;
+	align-content: all;
+}
+.busqueda{
+	display: flex;
+	height: 35px;
+	text-align: left;
+	border-radius: 5px;
+}
+.url{
+	height: 20%;
+	border-radius: 50px;
+}
+.name{
+	color: white;
+	padding: 60px;
+}
+.cgris{
+	display: flex;
+	height: 450px;
+	border-radius: 5px;
+}
+.vacio{
+	display: flex;
+	background-color: unset;
+	height: auto;
+}
+.vacio2{
+	display: flex;
+	background-color: unset;
+	height: auto;
+}
+.croja{
+	display: flex;
+	width: 80%;
+	height: 400px;
+	margin-top: auto;
+	border-radius: 5px;
+}
+.play{
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+.text{ 
+	color: white;
+	padding: 5px;
+	width: 40%;
+	height: auto;
+	text-align: center;
+}
+.audio{
+	color: gray;
+	display: flex;
+	height: 80px;
+	width: 100%;
+}
+.corange{
+	display: flex;
+	padding: 2%;
+	margin: 20px;
+	color: white;
+}
+.cfondo{
+	background-color: unset;
+	margin: 10px;
+	height: auto;
+	width: auto;
+}
+.cajaorange{
+	display: flex;
+	height: 100px;
+	width: 100%;
+	border-radius: 5px;
+}
+.cblanca{
+	display: flex;
+	background-color: white;
+	height: 20px;
+	width: 90%;
+	margin-top: 10px;
+	float: all;
+	border-radius: 5px;
+}
+.video{
+	margin: 20px;
+	text-align: center;
+}
+.informacion{
+	text-align: center;
+}
+.cajagray{
+	background-color: #414143;
+	height: auto;
+	width: 80%;
+	margin: 10%;
+	border-radius: 5px;
+}
+.comentarios{
+	display: flex;
+	text-align: center;
+	margin-top: 10px;
+}
+.textiz{
+	color: white;
+	text-align: center;
+	padding: 4px;
+	margin-top: 2px;
+}
+.opciones{
+	color: white;
+}
+@media screen and (max-width: 900px){
+	.text{
+		display: none;
+	}
+	.cgris{
+		background-color: unset;
+		width: 20px;
+		padding-left: 0%;
+		height: 300px;
+	}
+	.croja{
+		display: unset;
+		height: 300px;
+		padding: 0%;
+		width: 100%;
+	}
+	.play{
+		height: 100%;
+		padding: 0%;
+		width: 100%;
+	}
+	.audio{
+		display: none;
+		width: 0%;
+		height: 0%;
+		padding-left: 0%;
+	}
+	.vacio{
+		display: none;
+		width: 0%;
+		height: 0%;
+		padding-left: 0%;
+	}
+	}
